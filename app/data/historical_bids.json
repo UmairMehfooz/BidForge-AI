@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "description": "Historical bid win/loss rates by domain — 120 records aggregated from PS1 Bid History dataset",
+    "source": "Problem#1_Sample_Datasets (TEKROWE).xlsx — PS1 Bid History sheet",
+    "last_updated": "2025-12-01"
+  },
+  "domains": {
+    "Construction": {
+      "total_bids": 23,
+      "wins": 14,
+      "losses": 9,
+      "win_rate": 0.609,
+      "avg_budget_pkr_m": 245,
+      "avg_score_pct": 73.2,
+      "avg_compliance_pct": 80.1,
+      "top_clients": ["FWO", "NLC", "NHA", "WAPDA"]
+    },
+    "Energy": {
+      "total_bids": 20,
+      "wins": 12,
+      "losses": 8,
+      "win_rate": 0.600,
+      "avg_budget_pkr_m": 310,
+      "avg_score_pct": 70.5,
+      "avg_compliance_pct": 76.8,
+      "top_clients": ["OGDCL", "SNGPL", "PEPCO", "AEDB"]
+    },
+    "Telecom": {
+      "total_bids": 17,
+      "wins": 10,
+      "losses": 7,
+      "win_rate": 0.588,
+      "avg_budget_pkr_m": 180,
+      "avg_score_pct": 72.8,
+      "avg_compliance_pct": 79.4,
+      "top_clients": ["PTA", "PTCL", "Jazz", "NTC"]
+    },
+    "IT Services": {
+      "total_bids": 12,
+      "wins": 7,
+      "losses": 5,
+      "win_rate": 0.583,
+      "avg_budget_pkr_m": 95,
+      "avg_score_pct": 74.1,
+      "avg_compliance_pct": 82.3,
+      "top_clients": ["NADRA", "FBR", "PITB", "NTC"]
+    },
+    "Healthcare": {
+      "total_bids": 11,
+      "wins": 6,
+      "losses": 5,
+      "win_rate": 0.545,
+      "avg_budget_pkr_m": 120,
+      "avg_score_pct": 68.9,
+      "avg_compliance_pct": 75.2,
+      "top_clients": ["PIMS", "NIH", "PHFMC", "DHQ"]
+    },
+    "Education": {
+      "total_bids": 14,
+      "wins": 8,
+      "losses": 6,
+      "win_rate": 0.571,
+      "avg_budget_pkr_m": 65,
+      "avg_score_pct": 71.3,
+      "avg_compliance_pct": 78.9,
+      "top_clients": ["HEC", "AIOU", "QAU", "NAVTTC"]
+    },
+    "Finance": {
+      "total_bids": 13,
+      "wins": 7,
+      "losses": 6,
+      "win_rate": 0.538,
+      "avg_budget_pkr_m": 150,
+      "avg_score_pct": 69.7,
+      "avg_compliance_pct": 77.1,
+      "top_clients": ["SBP", "SECP", "NBP", "AGP"]
+    },
+    "Logistics": {
+      "total_bids": 10,
+      "wins": 4,
+      "losses": 6,
+      "win_rate": 0.400,
+      "avg_budget_pkr_m": 85,
+      "avg_score_pct": 66.2,
+      "avg_compliance_pct": 74.5,
+      "top_clients": ["Pakistan Post", "PIA", "NLC", "PNSC"]
+    },
+    "Cybersecurity": {
+      "total_bids": 8,
+      "wins": 5,
+      "losses": 3,
+      "win_rate": 0.625,
+      "avg_budget_pkr_m": 40,
+      "avg_score_pct": 76.5,
+      "avg_compliance_pct": 84.2,
+      "top_clients": ["NTISB", "MoITT", "SBP", "FIA"]
+    },
+    "ERP Implementation": {
+      "total_bids": 9,
+      "wins": 5,
+      "losses": 4,
+      "win_rate": 0.556,
+      "avg_budget_pkr_m": 110,
+      "avg_score_pct": 73.8,
+      "avg_compliance_pct": 81.0,
+      "top_clients": ["FBR", "WAPDA", "PIA", "PSO"]
+    },
+    "Solar Energy": {
+      "total_bids": 7,
+      "wins": 4,
+      "losses": 3,
+      "win_rate": 0.571,
+      "avg_budget_pkr_m": 130,
+      "avg_score_pct": 72.0,
+      "avg_compliance_pct": 79.5,
+      "top_clients": ["AEDB", "PPIB", "FESCO", "QESCO"]
+    },
+    "Network Design": {
+      "total_bids": 6,
+      "wins": 4,
+      "losses": 2,
+      "win_rate": 0.667,
+      "avg_budget_pkr_m": 200,
+      "avg_score_pct": 75.3,
+      "avg_compliance_pct": 83.1,
+      "top_clients": ["NTC", "PTCL", "PTA", "USF"]
+    }
+  },
+  "domain_aliases": {
+    "Road Construction": "Construction",
+    "Bridge Engineering": "Construction",
+    "Hospital IT": "Healthcare",
+    "Medical Equipment": "Healthcare",
+    "Fleet Management": "Logistics",
+    "LMS Development": "Education"
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "TAX-01",
+    "name": "Technical Approach",
+    "sector_hint": "all",
+    "typical_weight_range": [20, 40],
+    "keywords": ["technical approach", "technical proposal", "technical solution", "solution design", "technical merit", "technical capability", "architecture"]
+  },
+  {
+    "id": "TAX-02",
+    "name": "Relevant Experience",
+    "sector_hint": "all",
+    "typical_weight_range": [10, 25],
+    "keywords": ["relevant experience", "similar projects", "similar assignments", "past projects", "track record", "years of experience", "comparable contracts"]
+  },
+  {
+    "id": "TAX-03",
+    "name": "Key Personnel / CVs",
+    "sector_hint": "all",
+    "typical_weight_range": [10, 25],
+    "keywords": ["key personnel", "cv", "cvs", "curriculum vitae", "team composition", "project manager qualifications", "staff qualifications", "key experts", "team leader"]
+  },
+  {
+    "id": "TAX-04",
+    "name": "Financial Proposal / Price",
+    "sector_hint": "all",
+    "typical_weight_range": [20, 40],
+    "keywords": ["financial proposal", "price", "cost", "lowest bid", "financial bid", "quoted price", "price competitiveness", "financial offer", "bid price"]
+  },
+  {
+    "id": "TAX-05",
+    "name": "Project Timeline",
+    "sector_hint": "all",
+    "typical_weight_range": [5, 15],
+    "keywords": ["timeline", "schedule", "delivery time", "completion period", "work plan", "implementation schedule", "milestones", "gantt"]
+  },
+  {
+    "id": "TAX-06",
+    "name": "Quality Assurance",
+    "sector_hint": "all",
+    "typical_weight_range": [5, 15],
+    "keywords": ["quality assurance", "quality control", "qa/qc", "quality plan", "quality management", "testing procedures", "inspection"]
+  },
+  {
+    "id": "TAX-07",
+    "name": "Certifications & Compliance",
+    "sector_hint": "all",
+    "typical_weight_range": [5, 15],
+    "keywords": ["certification", "iso", "cmmi", "compliance", "licenses", "registration", "pec registered", "accreditation", "statutory requirements"]
+  },
+  {
+    "id": "TAX-08",
+    "name": "Local Presence",
+    "sector_hint": "all",
+    "typical_weight_range": [5, 10],
+    "keywords": ["local presence", "local office", "in-country", "regional office", "local content", "local staff", "presence in pakistan", "local partner"]
+  },
+  {
+    "id": "TAX-09",
+    "name": "HSE (Health, Safety, Environment)",
+    "sector_hint": "construction",
+    "typical_weight_range": [5, 15],
+    "keywords": ["health and safety", "hse", "safety plan", "environmental", "ohsas", "safety record", "environment management", "safety policy"]
+  },
+  {
+    "id": "TAX-10",
+    "name": "Past Performance",
+    "sector_hint": "all",
+    "typical_weight_range": [5, 15],
+    "keywords": ["past performance", "performance certificates", "completion certificates", "client references", "references", "performance history", "satisfactory completion"]
+  },
+  {
+    "id": "TAX-11",
+    "name": "Methodology",
+    "sector_hint": "all",
+    "typical_weight_range": [10, 25],
+    "keywords": ["methodology", "approach and methodology", "work methodology", "implementation methodology", "delivery methodology", "project execution plan"]
+  },
+  {
+    "id": "TAX-12",
+    "name": "Risk Management",
+    "sector_hint": "all",
+    "typical_weight_range": [5, 10],
+    "keywords": ["risk management", "risk assessment", "risk mitigation", "risk register", "contingency plan", "risk analysis"]
+  },
+  {
+    "id": "TAX-13",
+    "name": "After-Sales Support",
+    "sector_hint": "it_services",
+    "typical_weight_range": [5, 15],
+    "keywords": ["after-sales", "after sales", "support", "maintenance", "warranty", "sla", "service level", "helpdesk", "operations and maintenance", "o&m"]
+  },
+  {
+    "id": "TAX-14",
+    "name": "Financial Stability",
+    "sector_hint": "all",
+    "typical_weight_range": [5, 15],
+    "keywords": ["financial stability", "financial standing", "turnover", "balance sheet", "audited accounts", "net worth", "bank statement", "financial capacity", "annual revenue"]
+  },
+  {
+    "id": "TAX-15",
+    "name": "Innovation / Value Add",
+    "sector_hint": "all",
+    "typical_weight_range": [5, 10],
+    "keywords": ["innovation", "value addition", "value add", "added value", "innovative solution", "optimization", "modernization", "digital transformation"]
+  }
+]

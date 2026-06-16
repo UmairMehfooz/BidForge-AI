@@ -1,0 +1,50 @@
+#
+# BidForge AI — Python Dependencies
+# Pinned to the versions verified working on 2026-06-12 (all 12 playbook
+# fixes + verify_fix*.py suites). Install:  pip install -r requirements.txt
+#
+
+# Core framework
+fastapi==0.136.3
+uvicorn[standard]==0.49.0
+python-multipart==0.0.32
+
+# Environment
+python-dotenv==1.2.2
+
+# Data validation
+pydantic==2.13.4
+
+# Document parsing
+pypdf==6.13.2
+python-docx==1.2.0
+
+# LLM (GROQ via LangChain — only the two packages actually imported)
+langchain-groq==1.1.3
+langchain-core==1.4.6
+groq==0.37.1
+
+# Fallback provider — OpenRouter (OpenAI-compatible) when GROQ is rate-limited
+langchain-openai==1.3.0
+
+# Embeddings (local, ONNX runtime ~100MB — replaces sentence-transformers/torch
+# which pulled ~2GB and OOM'd free-tier deploys; same MiniLM weights)
+fastembed==0.8.0
+
+# Vector search (in-memory — no Supabase pgvector)
+faiss-cpu==1.14.2
+
+# Database
+supabase==2.31.0
+
+# Utilities
+httpx==0.28.1
+numpy==2.4.6
+
+# Win-probability model (historical bid dataset)
+pandas==3.0.3
+scikit-learn==1.9.0
+openpyxl==3.1.5
+
+# NER (deadlines via natural-language date search — no spaCy, too heavy)
+dateparser==1.4.0

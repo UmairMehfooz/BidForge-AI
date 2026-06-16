@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .signature-border {
+    border-top: 1px solid #2563EB;
+    box-shadow: 0 -1px 12px #2563EB18;
+  }
+}
+
+/* Animations */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-page-mount {
+  animation: fadeSlideUp 300ms ease forwards;
+}
+
+/* Modal entrance — backdrop fades in, card pops from slightly below */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes modalPop {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-backdrop {
+  animation: fadeIn 200ms ease forwards;
+}
+
+.animate-modal-pop {
+  animation: modalPop 250ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes pulseBorder {
+  0% { border-color: #E4E9F1; box-shadow: none; }
+  50% { border-color: #2563EB; box-shadow: 0 0 15px #2563EB30; }
+  100% { border-color: #E4E9F1; box-shadow: none; }
+}
+
+.animate-pulse-border {
+  animation: pulseBorder 2s infinite ease-in-out;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes dash {
+  from { stroke-dashoffset: 1000; }
+  to { stroke-dashoffset: 0; }
+}
+
+.animate-dash {
+  animation: dash 800ms ease-out forwards;
+}
+
+@keyframes shimmerBorder {
+  0% { border-image-source: linear-gradient(90deg, #E4E9F1 0%, #2563EB 50%, #E4E9F1 100%); }
+  100% { border-image-source: linear-gradient(90deg, #2563EB 0%, #E4E9F1 50%, #2563EB 100%); }
+}
+
+.animate-shimmer-border {
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(90deg, #E4E9F1, #2563EB, #E4E9F1) 1;
+  animation: shimmerBorder 2s infinite linear;
+}
+
+@keyframes shimmerBg {
+  0% { background-position: -1000px 0; }
+  100% { background-position: 1000px 0; }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #E9EEF5 25%, #F7F9FC 50%, #E9EEF5 75%);
+  background-size: 1000px 100%;
+  animation: shimmerBg 2s infinite linear forwards;
+}
+
+/* Custom Scrollbars */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #CBD5E1 transparent;
+}
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #CBD5E1;
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #2563EB;
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
